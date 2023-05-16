@@ -1,0 +1,72 @@
+*{
+    font-family: Merriweather Sans;
+    font-weight: 400;
+    color:#837E9F;
+    background:#22212C;
+    margin: 0px;
+    padding: 0px;
+  }
+  div{
+    display:grid;
+    grid-template-areas:
+      "h h h"
+      "m m a";
+    box-sizing: padding-box;
+  }
+  header{
+    grid-area: h;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background:#302F3D;
+  }
+  .contactbtn{
+    margin-right: 10px;
+  }
+  .homebtn{
+    margin-left: 555px;
+  }
+  nav{
+    background:#302F3D;
+  }
+  button{
+    background: #302F3D;
+    border: none;
+    margin-top: 10px;
+  }
+  header p{
+    background: #302F3D;
+    padding: 10px;
+    margin-left: -100px;
+  }
+  .title1, .title2{
+    background:#302F3D;
+    text-align: center;
+  }
+  .main{
+    display:flex;
+    grid-area:m;
+    padding: 150px;
+    margin: 50px auto auto 70px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background:#302F3D;
+  }
+  img{
+    height:40px;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  .asidetxt{
+    background:#302F3D;
+    grid-area: a;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin:50px 50px auto;
+  }
+  aside p, h1{ 
+    text-align: center;
+    background:#302F3D;
+  }
